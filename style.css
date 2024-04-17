@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(107, 7, 165);
+}
+
+.showNotification{
+    background-color: #fff;     
+    position:absolute;
+
+}
+ p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+button{
+    margin: 400px 850px;
+    height: 70px;
+    width: 200px;
+    border-radius: 8px;
+    
+}
+#notification-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    max-width: 300px;
+    overflow: hidden;
+}
+.notification {
+    background-color: #ffffff;
+    color: random;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.show {
+    opacity: 1;
+}
